@@ -1,6 +1,16 @@
-.chart-line-symbol {
-    -fx-background-color: #f9d900, white;
-        -fx-background-insets: 0;
-        -fx-background-radius: 5px;
-        -fx-padding: 0px;
+.default-color0.chart-series-line { -fx-stroke: transparent; }
+.default-color1.chart-series-line { -fx-stroke: transparent; }
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: transparent, blue;
 }
+.default-color1.chart-line-symbol {
+    -fx-background-color: transparent, red;
+}
+
+.default-color0.chart-legend-item-symbol{
+    -fx-background-color: blue;
+ }
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color: red;
+ }
